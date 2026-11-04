@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Thisma Labs: Small, fast software that keeps your data on your own devices">
+  <title>Thisma Labs</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.22" cy="0.5" r="0.55">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .px { fill: #0d9488; }
+    .px-glow { fill: #14b8a6; }
+    .pulse { opacity: 0.25; animation: pulse 4s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 0.18; } 50% { opacity: 0.35; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0.22; } }
+  </style>
+
+  <!-- Background and border -->
+  <rect width="900" height="240" rx="14" fill="url(#bg)"/>
+  <rect width="900" height="240" rx="14" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="899" height="239" rx="13.5" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Subtle grid accent lines -->
+  <line x1="340" y1="24" x2="340" y2="216" stroke="#0d9488" stroke-opacity="0.2" stroke-dasharray="3 5"/>
+
+  <!-- Soft glow behind T monogram -->
+  <g class="pulse" filter="url(#soft)" transform="translate(-12, -12)">
+    <rect class="px-glow" x="98" y="25" width="140" height="7"/>
+    <rect class="px-glow" x="84" y="32" width="168" height="7"/>
+    <rect class="px-glow" x="77" y="39" width="182" height="14"/>
+    <rect class="px-glow" x="147" y="53" width="28" height="70"/>
+    <rect class="px-glow" x="161" y="186" width="105" height="7"/>
+  </g>
+
+  <!-- Crisp T monogram (always visible, high-contrast teal for light mode) -->
+  <g transform="translate(-12, -12)">
+    <rect class="px" x="98" y="25" width="140" height="7"/>
+    <rect class="px" x="84" y="32" width="168" height="7"/>
+    <rect class="px" x="77" y="39" width="182" height="7"/>
+    <rect class="px" x="77" y="46" width="182" height="7"/>
+    <rect class="px" x="147" y="53" width="28" height="7"/>
+    <rect class="px" x="238" y="53" width="28" height="7"/>
+    <rect class="px" x="147" y="60" width="28" height="7"/>
+    <rect class="px" x="238" y="60" width="28" height="7"/>
+    <rect class="px" x="147" y="67" width="28" height="7"/>
+    <rect class="px" x="231" y="67" width="28" height="7"/>
+    <rect class="px" x="147" y="74" width="28" height="7"/>
+    <rect class="px" x="224" y="74" width="35" height="7"/>
+    <rect class="px" x="147" y="81" width="28" height="7"/>
+    <rect class="px" x="217" y="81" width="35" height="7"/>
+    <rect class="px" x="147" y="88" width="28" height="7"/>
+    <rect class="px" x="210" y="88" width="35" height="7"/>
+    <rect class="px" x="147" y="95" width="28" height="7"/>
+    <rect class="px" x="203" y="95" width="35" height="7"/>
+    <rect class="px" x="147" y="102" width="28" height="7"/>
+    <rect class="px" x="196" y="102" width="35" height="7"/>
+    <rect class="px" x="238" y="102" width="14" height="7"/>
+    <rect class="px" x="147" y="109" width="28" height="7"/>
+    <rect class="px" x="189" y="109" width="35" height="7"/>
+    <rect class="px" x="238" y="109" width="21" height="7"/>
+    <rect class="px" x="147" y="116" width="28" height="7"/>
+    <rect class="px" x="189" y="116" width="28" height="7"/>
+    <rect class="px" x="231" y="116" width="28" height="7"/>
+    <rect class="px" x="147" y="123" width="21" height="7"/>
+    <rect class="px" x="182" y="123" width="28" height="7"/>
+    <rect class="px" x="238" y="123" width="28" height="7"/>
+    <rect class="px" x="147" y="130" width="14" height="7"/>
+    <rect class="px" x="175" y="130" width="35" height="7"/>
+    <rect class="px" x="245" y="130" width="28" height="7"/>
+    <rect class="px" x="147" y="137" width="7" height="7"/>
+    <rect class="px" x="168" y="137" width="35" height="7"/>
+    <rect class="px" x="245" y="137" width="28" height="7"/>
+    <rect class="px" x="161" y="144" width="35" height="7"/>
+    <rect class="px" x="252" y="144" width="28" height="7"/>
+    <rect class="px" x="154" y="151" width="35" height="7"/>
+    <rect class="px" x="259" y="151" width="28" height="7"/>
+    <rect class="px" x="147" y="158" width="35" height="7"/>
+    <rect class="px" x="259" y="158" width="28" height="7"/>
+    <rect class="px" x="140" y="165" width="35" height="7"/>
+    <rect class="px" x="182" y="165" width="70" height="7"/>
+    <rect class="px" x="266" y="165" width="28" height="7"/>
+    <rect class="px" x="133" y="172" width="35" height="7"/>
+    <rect class="px" x="175" y="172" width="84" height="7"/>
+    <rect class="px" x="273" y="172" width="28" height="7"/>
+    <rect class="px" x="126" y="179" width="35" height="7"/>
+    <rect class="px" x="168" y="179" width="98" height="7"/>
+    <rect class="px" x="273" y="179" width="28" height="7"/>
+    <rect class="px" x="119" y="186" width="35" height="7"/>
+    <rect class="px" x="161" y="186" width="105" height="7"/>
+    <rect class="px" x="280" y="186" width="28" height="7"/>
+    <rect class="px" x="119" y="193" width="28" height="7"/>
+    <rect class="px" x="280" y="193" width="28" height="7"/>
+    <rect class="px" x="112" y="200" width="28" height="7"/>
+    <rect class="px" x="287" y="200" width="28" height="7"/>
+    <rect class="px" x="112" y="207" width="28" height="7"/>
+    <rect class="px" x="294" y="207" width="21" height="7"/>
+    <rect class="px" x="112" y="214" width="42" height="7"/>
+    <rect class="px" x="294" y="214" width="21" height="7"/>
+    <rect class="px" x="119" y="221" width="28" height="7"/>
+    <rect class="px" x="301" y="221" width="14" height="7"/>
+  </g>
+
+  <!-- Right-side Typography & Brand Message -->
+  <g transform="translate(376, 0)">
+    <text class="mono" x="0" y="68" font-size="12" font-weight="700" fill="#0f766e" letter-spacing="2.5">LOCAL-FIRST SOFTWARE</text>
+    <text class="sans" x="0" y="116" font-size="42" font-weight="800" fill="#0f172a" letter-spacing="3">THISMA LABS</text>
+    <text class="sans" x="2" y="148" font-size="15.5" fill="#475569">Small, fast software that keeps your data on your own devices.</text>
+
+    <!-- Product Pill Badge (Vector Beside Symbol + Text) -->
+    <g transform="translate(2, 172)">
+      <rect x="0" y="0" width="256" height="32" rx="16" fill="#ffffff" stroke="#0d9488" stroke-opacity="0.4"/>
+      <!-- Beside vector icon: dot - line - double circle -->
+      <circle cx="20" cy="16" r="3" fill="#0d9488"/>
+      <line x1="26" y1="16" x2="38" y2="16" stroke="#0d9488" stroke-width="1.75" stroke-linecap="round"/>
+      <circle cx="46" cy="16" r="5" fill="none" stroke="#0d9488" stroke-width="1.5"/>
+      <circle cx="46" cy="16" r="2" fill="#0d9488"/>
+      <text class="mono" x="62" y="20.5" font-size="12.5" font-weight="600" fill="#0f172a">Beside <tspan fill="#94a3b8">·</tspan> <tspan fill="#0f766e">Windows &amp; Android</tspan></text>
+    </g>
+  </g>
+</svg>
