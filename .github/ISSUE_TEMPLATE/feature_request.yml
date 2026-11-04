@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest an idea or improvement for Beside or Thisma Labs tools.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We love hearing how we can make our apps more useful for you! Tell us about your idea below.
+
+  - type: checkboxes
+    id: platform
+    attributes:
+      label: Which platform is this idea for?
+      options:
+        - label: Windows 10 / 11
+        - label: Android 8.0+
+        - label: Both / General
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to be able to do?
+      description: Describe the situation or workflow where this feature would help you.
+      placeholder: "Example: When I send multiple photos from my phone to my PC, I wish I could..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: How should it work?
+      description: Share how you imagine this feature working from a user's perspective.
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else? (optional)
+      description: Add any examples, sketches, or additional context.
+    validations:
+      required: false

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community Discussions & Questions
+    url: https://github.com/thisma-labs/beside/discussions
+    about: Ask questions, get setup help, and discuss ideas with the community.
+  - name: Report a Security Vulnerability (Private)
+    url: https://github.com/thisma-labs/beside/security/advisories/new
+    about: Please report security issues privately rather than in a public issue.
+  - name: Security Policy
+    url: https://github.com/thisma-labs/.github/blob/main/SECURITY.md
+    about: Read how Thisma Labs handles security reports and updates.

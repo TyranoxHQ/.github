@@ -1,0 +1,58 @@
+name: Bug Report
+description: Something isn't working as expected in Beside or another Thisma Labs tool.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking a moment to report an issue! Fill out what you can below. You do not need to know any technical jargon.
+
+  - type: checkboxes
+    id: platform
+    attributes:
+      label: Which device(s) were you using?
+      description: Select all devices involved when the problem happened.
+      options:
+        - label: Windows 10 / 11 PC
+        - label: Android 8.0+ Phone or Tablet
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App Version (optional)
+      description: If you know the version of Beside you have installed, enter it here.
+      placeholder: "e.g., latest release from GitHub / Gumroad / itch.io"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Tell us what went wrong and what you expected to happen instead.
+      placeholder: "Example: I tried to send a folder from my Windows PC to my Android phone, and..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we repeat the problem?
+      description: List the steps you took right before the issue occurred.
+      placeholder: |
+        1. Open Beside on Windows and Android
+        2. Select a file to send
+        3. Tap Send...
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra_context
+    attributes:
+      label: Screenshots or extra details (optional)
+      description: Paste any error messages or screenshots here. Please do not include private personal files.
+    validations:
+      required: false
