@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We are committed to making participation in the **Thisma Labs** community a welcoming, respectful, and harassment-free experience for everyone, including customers, everyday users, and technical contributors.
+We are committed to making participation in the **Tyranox** community a welcoming, respectful, and harassment-free experience for everyone, including customers, everyday users, and technical contributors.
 
 ## Our Standards
 

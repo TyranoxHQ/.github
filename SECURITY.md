@@ -1,6 +1,6 @@
 # Security Policy
 
-Security and privacy are foundational to **Thisma Labs**. Because our tools operate directly between your devices over your local network, we take every potential vulnerability seriously.
+Security and privacy are foundational to **Tyranox**. Because our tools operate directly between your devices over your local network, we take every potential vulnerability seriously.
 
 ## Supported Products
 
@@ -8,7 +8,7 @@ We actively maintain and provide security updates for the latest release of:
 
 | Product | Supported Version | Download |
 | :--- | :--- | :--- |
-| **Beside** (Windows 10/11 & Android 8.0+) | Latest release | [GitHub Releases](https://github.com/thisma-labs/beside/releases/latest) |
+| **Beside** (Windows 10/11 & Android 8.0+) | Latest release | [GitHub Releases](https://github.com/TyranoxHQ/beside/releases/latest) |
 
 ## Reporting a Vulnerability
 
@@ -16,7 +16,7 @@ We actively maintain and provide security updates for the latest release of:
 
 Instead, please report them privately using GitHub's Private Vulnerability Reporting:
 
-- **Report privately on GitHub:** [Submit a Security Advisory for Beside](https://github.com/thisma-labs/beside/security/advisories/new)
+- **Report privately on GitHub:** [Submit a Security Advisory for Beside](https://github.com/TyranoxHQ/beside/security/advisories/new)
 
 <!-- TODO: Add dedicated security contact email (e.g. security@...) once available -->
 

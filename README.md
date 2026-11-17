@@ -1,11 +1,11 @@
-# Thisma Labs `.github`
+# Tyranox `.github`
 
-This repository holds the public organization profile, brand assets, and default community health files for [Thisma Labs](https://github.com/thisma-labs).
+This repository holds the public organization profile, brand assets, and default community health files for [Tyranox](https://github.com/TyranoxHQ).
 
 ## Contents
 
-- [`profile/README.md`](./profile/README.md): The public organization profile displayed on [github.com/thisma-labs](https://github.com/thisma-labs), along with translated versions in `profile/README.*.md`.
-- [`profile/assets/`](./profile/assets/): Light and dark SVG brand assets (hero banners, organization logos, and section icons).
+- [`profile/README.md`](./profile/README.md): The public organization profile displayed on [github.com/TyranoxHQ](https://github.com/TyranoxHQ), along with translated versions in `profile/README.*.md`.
+- [`profile/assets/`](./profile/assets/): Light and dark SVG brand assets (hero banners and section icons) plus PNG logos (Tyranox, Closr).
 - [`.github/ISSUE_TEMPLATE/`](./.github/ISSUE_TEMPLATE/): Default customer-friendly YAML issue forms for bug reports and feature requests.
 - **Community Health Defaults:**
   - [`SUPPORT.md`](./SUPPORT.md)
